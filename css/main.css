@@ -30,6 +30,14 @@ body {
     /*background: linear-gradient(to bottom, #004366 0%,rgba(31,42,54,1) 100%);*/
     position: relative;
 }
+.menu-section {
+    height: calc(130vh - 130px);
+    max-height: calc(130vh - 130px);
+    background: linear-gradient(to bottom, #004366, #e5ba7c);
+    padding-top: 24px;
+    /*background: linear-gradient(to bottom, #004366 0%,rgba(31,42,54,1) 100%);*/
+    position: relative;
+}
 .background-mars-ground {
     position: absolute;
     left: 0;
@@ -175,4 +183,31 @@ a:hover {
     text-align: center;
     color: white;
     font-size: 36px;
+}
+.menu-h1 {
+    color: white;
+    text-align: center;
+}
+.menu-container {
+    position: relative;
+    z-index: 10;
+}
+.card .card-image .card-title {
+    background-color: white;
+    color: black !important;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.card-action .price {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 18px;
+}
+.card-content {
+    height: 10em;
+    max-height: 10em;
+    overflow-y: auto;
 }
